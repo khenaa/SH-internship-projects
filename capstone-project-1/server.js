@@ -26,9 +26,10 @@ const server = http.createServer((req, res) => {
       networkInterfaces: os.networkInterfaces(),
       uptime: os.uptime(),
     };
-
+    // convert osInfo to string
     let data = JSON.stringify(osInfo);
 
+    // write content of 'data' variable to osinfo.json
     fs.writeFile(`${__dirname}/osinfo.json`, data, (err) => {
       res.writeHead(201, { "content-type": "text/plain" });
       res.end("Your OS info has been saved successfully!");
