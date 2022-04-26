@@ -1,0 +1,148 @@
+{
+  "hostname": "SAMSONs-Macintosh.local",
+  "platform": "darwin",
+  "architecture": "x64",
+  "numberOfCPUS": [
+    {
+      "model": "Intel(R) Core(TM) i7-2635QM CPU @ 2.00GHz",
+      "speed": 2000,
+      "times": {
+        "user": 118548240,
+        "nice": 0,
+        "sys": 63249410,
+        "idle": 661151640,
+        "irq": 0
+      }
+    },
+    {
+      "model": "Intel(R) Core(TM) i7-2635QM CPU @ 2.00GHz",
+      "speed": 2000,
+      "times": {
+        "user": 5986590,
+        "nice": 0,
+        "sys": 5681960,
+        "idle": 830869120,
+        "irq": 0
+      }
+    },
+    {
+      "model": "Intel(R) Core(TM) i7-2635QM CPU @ 2.00GHz",
+      "speed": 2000,
+      "times": {
+        "user": 83844980,
+        "nice": 0,
+        "sys": 57103520,
+        "idle": 701590670,
+        "irq": 0
+      }
+    },
+    {
+      "model": "Intel(R) Core(TM) i7-2635QM CPU @ 2.00GHz",
+      "speed": 2000,
+      "times": {
+        "user": 5576240,
+        "nice": 0,
+        "sys": 3895110,
+        "idle": 833065960,
+        "irq": 0
+      }
+    },
+    {
+      "model": "Intel(R) Core(TM) i7-2635QM CPU @ 2.00GHz",
+      "speed": 2000,
+      "times": {
+        "user": 67095450,
+        "nice": 0,
+        "sys": 34534990,
+        "idle": 740908160,
+        "irq": 0
+      }
+    },
+    {
+      "model": "Intel(R) Core(TM) i7-2635QM CPU @ 2.00GHz",
+      "speed": 2000,
+      "times": {
+        "user": 5588240,
+        "nice": 0,
+        "sys": 3523510,
+        "idle": 833425190,
+        "irq": 0
+      }
+    },
+    {
+      "model": "Intel(R) Core(TM) i7-2635QM CPU @ 2.00GHz",
+      "speed": 2000,
+      "times": {
+        "user": 53930490,
+        "nice": 0,
+        "sys": 20304100,
+        "idle": 768303470,
+        "irq": 0
+      }
+    },
+    {
+      "model": "Intel(R) Core(TM) i7-2635QM CPU @ 2.00GHz",
+      "speed": 2000,
+      "times": {
+        "user": 5631270,
+        "nice": 0,
+        "sys": 3190060,
+        "idle": 833715230,
+        "irq": 0
+      }
+    }
+  ],
+  "networkInterfaces": {
+    "lo0": [
+      {
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4",
+        "mac": "00:00:00:00:00:00",
+        "internal": true,
+        "cidr": "127.0.0.1/8"
+      },
+      {
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "mac": "00:00:00:00:00:00",
+        "internal": true,
+        "cidr": "::1/128",
+        "scopeid": 0
+      },
+      {
+        "address": "fe80::1",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "mac": "00:00:00:00:00:00",
+        "internal": true,
+        "cidr": "fe80::1/64",
+        "scopeid": 1
+      }
+    ],
+    "utun0": [
+      {
+        "address": "fe80::5e50:d5b:a23f:8155",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "mac": "00:00:00:00:00:00",
+        "internal": false,
+        "cidr": "fe80::5e50:d5b:a23f:8155/64",
+        "scopeid": 12
+      }
+    ],
+    "utun1": [
+      {
+        "address": "fe80::204d:cbf7:c4a3:ad2d",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "mac": "00:00:00:00:00:00",
+        "internal": false,
+        "cidr": "fe80::204d:cbf7:c4a3:ad2d/64",
+        "scopeid": 13
+      }
+    ]
+  },
+  "uptime": 2906543
+}

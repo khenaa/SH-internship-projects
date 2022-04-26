@@ -1,0 +1,16 @@
+{
+  "name": "capstone-project-1",
+  "version": "1.0.0",
+  "description": "First capstone project of the internship ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "author": "khena",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
